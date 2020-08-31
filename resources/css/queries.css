@@ -1,0 +1,183 @@
+/* @media only screen and (max-width: 1600px) {
+  .main-nav {
+    width: 50vw;
+    margin-right: 1%;
+  }
+  .hero-text-box {
+      width: 100%;
+      margin-left: 1%;
+  }
+} */
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+@media only screen and (max-width: 931px) {
+  .section-steps a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+/* Small tablets to big tablets: from 768px to 1023px   */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .icon-small {
+    width: 20px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 933px) {
+  body {
+    font-size: 16px;
+  }
+  .section-steps {
+    position: relative;
+    height: 85vh;
+    padding-bottom: 20px;
+  }
+  .row-with-btns a img {
+    position: absolute;
+    top: 235px;
+    height: 50px;
+    margin-top: 30px;
+  }
+  .apple {
+    right: 50px;
+  }
+  .works-step p {
+    width: 80%;
+  }
+  .plan-box li {
+    white-space: nowrap;
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .section-steps {
+    /* position: static; */
+  }
+  .row-with-btns a img {
+    /* position: static; */
+  }
+}
+
+/* larger small phones and tablets from 481px t0 767px */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .section-steps {
+    height: 100%;
+  }
+  .main-nav { 
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: block;
+  }
+
+  .row-with-btns .work-btn {
+    /* position: relative; */
+    top: 50px;
+    height: 40px;
+    /* margin: 30px 60px; */
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .two {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 70px;
+    /* height: 100%; */
+  }
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+  }
+
+  .works-step {
+    margin-bottom: 20px;
+  }
+  /* .works-step:last-of-type { */
+  /* margin-bottom: 20px; */
+  /* } */
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .app-screen {
+    width: 25%;
+  }
+  .section-features h3 {
+    display: inline-block;
+    width: 80%;
+  }
+  .section-features i {
+    margin-right: 1%;
+    font-size: 170%;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+  }
+  footer .row {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .row .col {
+    width: 100%;
+    text-align: center;
+  }
+  .social-links {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .main-nav {
+    display: none;
+  }
+}
+
+/* small phones from :0 t0 480px */
+@media only screen and (max-width: 480px) {
+  .works-step {
+    text-align: center;
+   }
+}

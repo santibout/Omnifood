@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This is a normalize.css cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./vendors/css/grid.css" />
+
+    <link rel="stylesheet" href="./resources/css/styles.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
+    <link rel="stylesheet" href="./resources/css/queries.css">
+  
+    <title>Omnifood</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="row">
+          <img
+            src="./resources/img/logo-white.png"
+            alt="Omnifood logo"
+            class="logo"
+          />
+          <img
+          src="./resources/img/logo.png"
+          alt="Omnifood logo"
+          class="logo-black"
+          id='logo-black'
+        />
+        <div class="nav-mobile">
+          <img
+          src="./resources/img/logo.png"
+          alt="Omnifood logo"
+          class="nav-logo-black"
+        />
+          <ul>
+            <li><a href="#features">Food delivery</a></li>
+            <li><a href="#works">How it works</a></li>
+            <li><a href="#cities">Our cities</a></li>
+            <li><a href="#plans">Sign up</a></li>
+          </ul>
+        </div>
+          <ul class="main-nav">
+            <li><a href="#features">Food delivery</a></li>
+            <li><a href="#works">How it works</a></li>
+            <li><a href="#cities">Our cities</a></li>
+            <li><a href="#plans">Sign up</a></li>
+          </ul>
+          <a href="#" class="mobile-nav-icon"><i class="fas fa-bars"></i></a>
+          <a href="#" class='mobile-nav-icon x'>X</a>
+        </div>
+      </nav>
+      <div class="hero-text-box">
+        <h1>
+          Goodbye junk food.
+          <br />
+          Hello super healthy meals.
+        </h1>
+        <a class="btn btn-full" href="#">I'm hungry</a>
+        <a class="btn btn-ghost" href="#">Show me more</a>
+      </div>
+    </header>
+    <section class="section-features js-section-features" id='features'>
+      <div>
+        <h2>Get food fast &mdash; not fast food</h2>
+        <p class="long-copy">
+          Hello, we're Omnifood, your new premium food delivery service. We know
+          you're always busy. No time for cooking. So let us take care of that,
+          we're really good at it, we promise!
+        </p>
+      </div>
+      <div class="row js--wp-1">
+        <div class="col span-1-of-4 box">
+          <i class="fas fa-infinity icon-big"></i>
+          <h3>Up to 365 days/year</h3>
+          <p>
+            Never cook again! We really mean that. Our subscription plans
+            include up to 365 days/year coverage. You can also choose to order
+            more flexibly if that's your style.
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="fas fa-stopwatch icon-big"></i>
+          <h3>Ready in 20 minutes.</h3>
+          <p>
+            All our vegetables are fresh, organic and local. Animals are raised
+            without added hormones or antibiotics. Good for your health, the
+            environment, and it also tastes better!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="fas fa-carrot icon-big"></i>
+          <h3>100% organic</h3>
+          <p>
+            We don't limit your creativity, which means you can order whatever
+            you feel like. You can also choose from our menu containing over 100
+            delicious meals. It's up to you!
+          </p>
+        </div>
+        <div class="col span-1-of-4 box">
+          <i class="fas fa-shopping-cart icon-big"></i>
+          <h3>Order anything</h3>
+          <p>
+            Never cook again! We really mean that. Our subscription plans
+            include up to 365 days/year coverage. You can also choose to order
+            more flexibly if that's your style.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-meals">
+      <ul class='meals-showcase clearfix'>
+        <li>
+          <figure>
+            <img src="./resources/img/1.jpg" alt="korean Bibimbap">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./resources/img/2.jpg" alt="Simple Italian Pizza">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./resources/img/3.jpg" alt="Chicken Breast Steak">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./resources/img/4.jpg" alt="Autumn Pumpkin Soup">
+          </figure>
+        </li>
+      </ul>
+      <ul class="meals-showcase clearfix">
+        <li>
+          <figure>
+            <img src="./resources/img/5.jpg" alt="Paleo beef Steak">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./resources/img/6.jpg" alt="Healthy Baguette with egg">
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img src="./resources/img/7.jpg" alt="Burger with cheddar and bacon">
+          </figure>
+          <li><figure>
+            <img src="./resources/img/8.jpg" alt="Granola with cherries and strawberries">
+          </figure></li>
+        </li>
+      </ul>
+    </section>
+    <section class="section-steps" id='works'>
+      <div class="row d-20p">
+        <h2 class='steps-h2'>It works &mdash; Simple as 1, 2, 3</h2>
+      </div>
+      <div class="row row-with-btns d-80p">
+        <div class="col span-1-of-2 steps-box one">
+          <img src="./resources/img/app-iPhone.png" alt="omnifood app on i phone" class='app-screen'>
+        </div>
+        <div class="col span-1-of-2 steps-box two">
+          <div class="works-step">
+            <div>1</div>
+            <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+          </div>
+          <div class="works-step">
+            <div>2</div>
+            <p>Order your delicious meal using our mobile app or website.  Or you can even call us!</p>
+          </div>
+          <div class="works-step">
+            <div>3</div>
+            <p>Enjoy your meal after less than 20 minutes.  See you the next time!</p>
+          </div>
+          <!-- <div class="works-step"> -->
+            <a href="#" class='btn-app'><img class='work-btn apple-logo apple' src="data:image/png;base64,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" alt="app store button"></a>
+            <a href="#" class='btn-app'><img class='work-btn google' src="./resources/img/download-app-android.png" alt="play store button"></a>
+          <!-- </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="section-cities" id='cities'>
+      <div class="row">
+        <h2>We're currently in these cities</h2>
+      </div>
+      <div class="row">
+        <div class="col span-1-of-4 box">
+          <img src="./resources/img/lisbon-3.jpg" alt="lisbon">
+          <h3>Lisbon</h3>
+          <div class="city-feature">
+            <i class="fas fa-user"></i>
+            1600+ happy eaters
+          </div>
+          <div class="city-feature">
+            <i class="fas fa-star "></i>
+            60+ top chefs
+          </div>
+          <div class="city-feature">
+            <i class="fab fa-twitter"></i>
+            <a href="#">@omnifood_lx</a>
+          </div>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <img src="./resources/img/san-francisco.jpg" alt="San Francisco">
+          <h3>San Francisco</h3>
+          <div class="city-feature">
+            <i class="fas fa-user"></i>
+            3700+ happy eaters
+          </div>
+          <div class="city-feature">
+            <i class="fas fa-star "></i>
+            160+ top chefs
+          </div>
+          <div class="city-feature">
+            <i class="fab fa-twitter"></i>
+            <a href="#">@omnifood_sf</a>
+          </div>
+        </div>
+
+        <div class="col span-1-of-4 box">
+          <img src="./resources/img/berlin.jpg" alt="berlin">
+          <h3>Berlin</h3>
+          <div class="city-feature">
+            <i class="fas fa-user"></i>
+            2300+ happy eaters
+          </div>
+          <div class="city-feature">
+            <i class="fas fa-star "></i>
+            110+ top chefs
+          </div>
+          <div class="city-feature">
+            <i class="fab fa-twitter"></i>
+            <a href="#">@omnifood_berlin</a>
+          </div>
+        </div>
+
+
+        <div class="col span-1-of-4 box">
+          <img src="./resources/img/london.jpg" alt="london">
+          <h3>London</h3>
+          <div class="city-feature">
+            <i class="fas fa-user"></i>
+            1200+ happy eaters
+          </div>
+          <div class="city-feature">
+            <i class="fas fa-star "></i>
+            50+ top chefs
+          </div>
+          <div class="city-feature">
+            <i class="fab fa-twitter"></i>
+            <a href="#">@omnifood_london</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-testimonials">
+      <div class="row">
+        <h2>Our customers can't live without us</h2>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <blockquote>
+              Omnifood is just awesome!  I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver.  Now that I got used to it, I couldn't live without my daily meals!
+              <cite><img src="./resources/img/customer-1.jpg" alt="Alberto"> Alberto Duncan</cite>
+            </blockquote>
+          </div>
+
+          <div class="col span-1-of-3">
+            <blockquote>
+              Inexpensive, healthy and great-tasting meals, delivered right to my home.  We have lots of food delivery here in Lisbon but no one comes even close to Omnifood.  Me and my family are so in love!
+              <cite><img src="./resources/img/customer-2.jpg" alt="Joana"> Joana Silva</cite>
+            </blockquote>
+          </div>
+
+          <div class="col span-1-of-3">
+            <blockquote>
+              I was looking or a quick and easy food delivery service in San Francisco.  I tried a lot of them and eneded up with Omnifood.  Best food delivery service in the Bay Area.  Keep up the great work!
+              <cite><img src="./resources/img/customer-3.jpg" alt="Milton"> Milton Chapman</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-plans" id='plans'>
+      <div class="row">
+        <h2>
+          Start eating healthy today
+        </h2>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <div class="plan-box blink animate__animated">
+              <div>
+                <h3>Premium</h3>
+                <p class='plan-price'>$399 <span>/ month</span></p>
+                <p class="plan-price-meal">That's only $13.30 per meal</p>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fas fa-check icon-small"></i>1 meal every day</li>
+                  <li><i class="fas fa-check icon-small"></i>Order 24/7</li>
+                  <li><i class="fas fa-check icon-small"></i>Access to newest creations</li>
+                  <li><i class="fas fa-check icon-small"></i>Free delivery</li>
+                </ul>
+              </div>
+              <div>
+                <a href="#" class='btn btn-full'>Sign up now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col span-1-of-3">
+            <div class="plan-box">
+              <div>
+                <h3>Pro</h3>
+                <p class='plan-price'>$149 <span>/ month</span></p>
+                <p class="plan-price-meal">That's only $14.90 per meal</p>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fas fa-check icon-small"></i>1 meal 10 days/month</li>
+                  <li><i class="fas fa-check icon-small"></i>Order 24/7</li>
+                  <li><i class="fas fa-check icon-small"></i>Access to newest creations</li>
+                  <li><i class="fas fa-check icon-small"></i>Free delivery</li>
+                </ul>
+              </div>
+              <div>
+                <a href="#" class='btn btn-ghost'>Sign up now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col span-1-of-3">
+            <div class="plan-box">
+              <div>
+                <h3>Starter</h3>
+                <p class='plan-price'>$19 <span>/ meal</span></p>
+                <!-- &nbsp is an empty space -->
+                <p class='plan-price-meal'>&nbsp;</p>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fas fa-check icon-small"></i>1 meal</li>
+                  <li><i class="fas fa-check icon-small"></i>Order from 8 am to 12 pm</li>
+                  <li><i class="fas fa-times icon-small"></i></li>
+                  <li><i class="fas fa-check icon-small"></i>Free delivery</li>
+                </ul>
+              </div>
+              <div>
+                <a href="#" class='btn btn-ghost'>Sign up now</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+    <section class="section-form">
+      <div class="row">
+        <h2>We are happy to hear from you</h2>
+      </div>
+      <form action="#" method='post' class='contact-form'>
+        <div class="row">
+        <div class="col span-1-of-3">
+          <label for="name">Name</label>
+        </div>
+        <div class="col span-2-of-3">
+          <input type="text" name='name' id='name' placeholder='your name' required>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="email">E-mail</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="email" name='email' id='email' placeholder='your email' required>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="options ">How did you find us</label>
+          </div>
+          <div class="col span-2-of-3">
+            <select name="options" id="options">
+              <option value="default">Please choose one</option>
+              <option value="friends">Friends</option>
+              <option value="search">Search</option>
+              <option value="ad">Ad</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="news">News Letter</label>
+          </div>
+          <div class="col span-2-of-3">
+            <input type="checkbox" id='news' name='news'/> Yes, Please
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+            <label for="text">Drop us a line</label>
+          </div>
+          <div class="col span-2-of-3">
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+          </div> 
+        </div>
+        <div class="row">
+          <div class="col span-1-of-3">
+          </div>
+          <div class="col span-2-of-3">
+        <input type="submit" value='Send It!' />
+          </div>
+        </div>
+      </form>
+      </section>
+      <footer>
+        <div class="row">
+          <div class="col span-1-of-2">
+            <ul class="footer-nav">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">iOS App</a></li>
+              <li><a href="#">Android App</a></li>
+            </ul>
+          </div>
+          <div class="col span-1-of-2">
+            <ul class="social-links">
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>   
+          </div>
+        </div>
+        <div class="row">
+          <p>
+            Copyright &copy; 2020 by Samuel Jim Santibout  
+          </p>
+        </div>
+      </footer>
+      <script 
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" 
+     crossorigin="anonymous">
+    </script>
+      <script src='//cdn.jsdelivr.net/respond/1.4.2/respond.min.js'></script>
+      <script src='//cdn.jsdelivr.net/respond/1.4.2/respond.min.js'></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+       integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+        crossorigin="anonymous">
+      </script>
+     <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" 
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" 
+      crossorigin="anonymous">
+    </script>
+      <script src='./resources/js/script.js'></script>
+    </body>
+    </html>
